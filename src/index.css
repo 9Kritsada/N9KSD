@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Sarabun", sans-serif;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .font-orbit {
+    font-family: "Orbit", sans-serif;
+    font-weight: 800;
+  }
+  .animation-fade {
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer utilities {
+  section {
+    @apply min-h-screen relative;
+  }
+}
