@@ -18,6 +18,9 @@
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .vertical-text {
+    writing-mode: vertical-rl;
+  }
 }
 
 @layer utilities {
