@@ -27,4 +27,10 @@
   section {
     @apply min-h-screen relative;
   }
+  h1 {
+    @apply text-2xl font-medium;
+  }
+  .fixed-top {
+    @apply sticky top-0;
+  }
 }
