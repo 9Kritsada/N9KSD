@@ -21,7 +21,7 @@ function App() {
               onClick={() => setDarkMode(!darkMode)}
             />
           </header>
-          <div className="p-10 text-center">
+          <div className="p-5 md:p-10 text-center">
             <h1 className="text-center py-2 text-5xl md:text-6xl text-orange-600 dark:text-amber-400 font-orbit">
               Kritsa Wiriya
             </h1>
@@ -39,15 +39,14 @@ function App() {
             <div className="w-20 h-20 bg-green-600"></div>
             <div className="w-20 h-40 bg-blue-600"></div>
           </div>
-
-          <div className="absolute bottom-[5%] w-full z-40">
-            <div className="flex items-center justify-center">
-              <a href="#section1" className="text-3xl animate-bounce">
-                <FontAwesomeIcon icon={faComputerMouse} />
-              </a>
-            </div>
-          </div>
         </section>
+        <div className="absolute inset-x-0 bottom-16 w-full z-40">
+          <div className="flex items-center justify-center">
+            <a href="#section1" className="text-3xl animate-bounce">
+              <FontAwesomeIcon icon={faComputerMouse} />
+            </a>
+          </div>
+        </div>
 
         <Content />
 
