@@ -12,7 +12,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <div className="min-h-screen px-10 bg-zinc-300 dark:text-white dark:bg-gray-900 animation-fade md:px-20 lg:px-40">
+      <div className="min-h-screen px-10 bg-gray-200 dark:text-white dark:bg-gray-900 animation-fade md:px-20 lg:px-40">
         <section id="main">
           <header className="flex justify-between py-10 items-center ">
             <logo className="text-xl font-orbit">N9KSD</logo>
