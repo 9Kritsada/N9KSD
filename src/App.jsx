@@ -39,14 +39,14 @@ function App() {
             <div className="w-20 h-20 bg-green-600"></div>
             <div className="w-20 h-40 bg-blue-600"></div>
           </div>
-        </section>
-        <div className="absolute inset-x-0 bottom-16 w-full z-40">
-          <div className="flex items-center justify-center">
-            <a href="#section1" className="text-3xl animate-bounce">
-              <FontAwesomeIcon icon={faComputerMouse} />
-            </a>
+          <div className="absolute bottom-16 w-full z-40">
+            <div className="flex items-center justify-center">
+              <a href="#section1" className="text-3xl animate-bounce">
+                <FontAwesomeIcon icon={faComputerMouse} />
+              </a>
+            </div>
           </div>
-        </div>
+        </section>
 
         <Content />
 
