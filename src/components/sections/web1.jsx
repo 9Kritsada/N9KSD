@@ -2,19 +2,19 @@ export default function web1() {
   return (
     <>
       <section id="home">
-        <div className="md:mt-28 grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center ">
+        <div className="md:mt-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center ">
           <div className="space-y-5 order-2 md:order-1">
-            <h1 className="text-5xl">
+            <h1 className="text-5xl" data-aos="fade-right">
               I'm <span className="font-bold text-orange-600">Kritsada</span>
             </h1>
-            <p className="opacity-80">
+            <p className="opacity-80" data-aos="zoom-in">
               Welcome to my website. I am kritsada wiriya. I am form thailand
               and I am studying in computer engineer at rajamangala university
               of technology lanna. I am interested frontend and backend web
               developer.
             </p>
-            <div className="pt-10 space-y-2">
-              <h2 className="text-2xl">Skills</h2>
+            <div className="pt-10 space-y-2" data-aos="flip-left">
+              <h2 className="text-2xl" >Skills</h2>
               <div>
                 <h2 className="text-lg opacity-60">Programming</h2>
                 <div className="flex flex-wrap gap-1 mt-1">
@@ -31,7 +31,7 @@ export default function web1() {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center relative order-1 md:order-2">
+          <div className="flex items-center justify-center relative order-1 md:order-2" data-aos="zoom-out">
             <div className="h-52 w-52 bg-gradient-to-tr from-50% from-orange-600 to-50% to-amber-400 blur-3xl rounded-full absolute spin opacity-50"></div>
             <img
               src="/N9KSD_New.png"

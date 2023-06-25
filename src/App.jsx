@@ -1,11 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudMoon, faBars } from "@fortawesome/free-solid-svg-icons";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Footer from "./components/footer";
 import Content from "./components/content";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [darkMode, setDarkMode] = useState(true);
   const [isHidden, setIsHidden] = useState(true);
   return (

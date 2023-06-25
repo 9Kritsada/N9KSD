@@ -29,7 +29,7 @@ export default function web3() {
     <>
       <section id="contect">
         <h1 className="text-2xl font-bold"><span className="hash">#</span>Contact</h1>
-        <div className="flex flex-col space-y-1">
+        <div className="flex flex-col space-y-1" data-aos="fade-up">
           {contect.map((e) => {
             return (
               <a align="center" href={e.href} target="_blank">
