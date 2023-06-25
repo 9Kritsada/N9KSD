@@ -10,7 +10,7 @@ import Content from "./components/content";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({duration:1000});
   }, []);
   const [darkMode, setDarkMode] = useState(true);
   const [isHidden, setIsHidden] = useState(true);
