@@ -27,7 +27,7 @@ export default function web2() {
                 <div className="rounded-lg overflow-hidden shadow-lg shadow-black/40 border border-white/10 h-full">
                   <img
                     // src="../../../public/exp1.png"
-                    src={`src="../../../public/${e.img}`}
+                    src={`/${e.img}`}
                     className="aspect-video object-cover"
                   />
                   <div className="p-5 space-y-2 h-full">
