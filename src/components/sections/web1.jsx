@@ -35,7 +35,7 @@ export default function web1() {
             <div className="h-52 w-52 bg-gradient-to-tr from-50% from-orange-600 to-50% to-amber-400 blur-3xl rounded-full absolute spin opacity-50"></div>
             <img
               src="/N9KSD_New.png"
-              className="max-h-96 md:scale-150"
+              className="max-h-96 md:scale-125   lg:scale-150"
             />
           </div>
         </div>
