@@ -52,7 +52,7 @@ function App() {
 
         <Content />
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ const footer = () => {
     <footer className="fixed bottom-0 right-0 text-sm font-bold">
       <div className="">
         <span className="vertical-text py-3">
-          Make With
           <span className="font-orbit"> N9KSD</span>
         </span>
       </div>

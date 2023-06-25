@@ -19,6 +19,9 @@
   .containers {
     @apply px-10 md:px-20 lg:px-40
   }
+  a:hover {
+    @apply opacity-80 duration-75 ease-in-out
+  }
 }
 
 @layer components {
