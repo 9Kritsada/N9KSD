@@ -16,34 +16,6 @@ export default function web2() {
       img: "exp2.png",
       link: "https://9kritsada.github.io/Clock/",
     },
-    {
-      title: "Clock",
-      des: "i make it before new year's day wait to when the time willcome.",
-      date: "Start : Dec 31, 20212",
-      img: "exp2.png",
-      link: "https://9kritsada.github.io/Clock/",
-    },
-    {
-      title: "Clock",
-      des: "i make it before new year's day wait to when the time willcome.",
-      date: "Start : Dec 31, 20212",
-      img: "exp2.png",
-      link: "https://9kritsada.github.io/Clock/",
-    },
-    {
-      title: "Clock",
-      des: "i make it before new year's day wait to when the time willcome.",
-      date: "Start : Dec 31, 20212",
-      img: "exp2.png",
-      link: "https://9kritsada.github.io/Clock/",
-    },
-    {
-      title: "Clock",
-      des: "i make it before new year's day wait to when the time willcome.",
-      date: "Start : Dec 31, 20212",
-      img: "exp2.png",
-      link: "https://9kritsada.github.io/Clock/",
-    },
   ];
 
   return (
