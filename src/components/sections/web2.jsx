@@ -7,14 +7,16 @@ export default function web2() {
       des: "this is website for my team make it with html/css in free day☀️",
       date: "Start : Nov 17, 2021",
       img: "exp1.png",
-      link: "https://9kritsada.github.io/Hitman.GG/",
+      link_github: "https://github.com/9Kritsada/Hitman.GG",
+      link_website: "https://9kritsada.github.io/Hitman.GG/",
     },
     {
       title: "Clock",
       des: "i make it before new year's day wait to when the time willcome.",
       date: "Start : Dec 31, 20212",
       img: "exp2.png",
-      link: "https://9kritsada.github.io/Clock/",
+      link_github: "https://github.com/9Kritsada/Clock",
+      link_website: "https://9kritsada.github.io/Clock/",
     },
   ];
 
@@ -34,7 +36,8 @@ export default function web2() {
                 des={e.des}
                 date={e.date}
                 img={e.img}
-                link={e.link}
+                link_github={e.link_github}
+                link_website={e.link_website}
               />
             );
           })}

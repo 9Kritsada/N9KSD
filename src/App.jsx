@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudMoon, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBtc } from "@fortawesome/free-brands-svg-icons"
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,7 +12,7 @@ import Content from "./components/content";
 
 function App() {
   useEffect(() => {
-    AOS.init({duration:1000});
+    AOS.init({ duration: 1000 });
   }, []);
   const [darkMode, setDarkMode] = useState(true);
   const [isHidden, setIsHidden] = useState(true);

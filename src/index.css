@@ -42,6 +42,9 @@
   .hash {
     @apply font-bold text-orange-600 mr-1
   }
+  .img_3d {
+    transform: perspective(1500px) rotateY(-30deg);
+  }
   .spin {
     transform: rotate(0deg);
     animation: spinnimate 3s infinite linear;
