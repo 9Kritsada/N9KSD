@@ -48,7 +48,7 @@ function App() {
                 </li>
                 <li>
                   <a href="#contect">
-                    <span className="hash">#</span>Contect
+                    <span className="hash">#</span>Contact
                   </a>
                 </li>
               </ul>
