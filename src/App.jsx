@@ -22,7 +22,8 @@ function App() {
   const [isHidden, setIsHidden] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <div className="min-h-screen bg-gray-200 dark:text-white dark:bg-gray-900 animation-fade">
+      <div className="min-h-screen bg-gray-200 dark:text-white dark:bg-gray-900">
+        {/* Header */}
         <header className="sticky top-0 z-50 bg-gradient-to-b from-gray-200 dark:from-gray-900">
           <div className="flex flex-wrap justify-between py-10 items-center containers">
             <logo className="text-xl font-orbit">N9KSD</logo>
@@ -62,6 +63,7 @@ function App() {
           </div>
         </header>
 
+        {/* Content */}
         <Content />
 
         {/* <Footer /> */}

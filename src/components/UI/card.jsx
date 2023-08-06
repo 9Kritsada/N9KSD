@@ -9,7 +9,7 @@ export default function card(props) {
         data-aos="fade-up"
         data-aos-delay={50 + (props.list + 1) * 50}
       >
-        <div className="rounded-lg overflow-hidden hover:shadow-lg shadow-black/40 border border-white/0 hover:border-white/20 duration-300 ease-out">
+        <div className="rounded-lg overflow-hidden hover:shadow-lg shadow-black/40 border border-white/0 hover:border-black/20 dark:hover:border-white/20 duration-300 ease-out">
           <img
             src={`/${props.img}`}
             className="aspect-video object-cover rounded-lg"
