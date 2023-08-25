@@ -13,7 +13,7 @@ export default function web2() {
     {
       title: "Clock",
       des: "i make it before new year's day wait to when the time willcome.",
-      date: "Start : Dec 31, 20212",
+      date: "Start : Dec 31, 2021",
       img: "exp2.png",
       link_github: "https://github.com/9Kritsada/Clock",
       link_website: "https://9kritsada.github.io/Clock/",
