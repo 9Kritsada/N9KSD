@@ -1,0 +1,32 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faPager } from "@fortawesome/free-solid-svg-icons";
+
+export default function image(props) {
+  return (
+    <>
+      <div data-aos="fade-up" data-aos-delay={50 + (props.list + 1) * 50}>
+        <div className="rounded-lg overflow-hidden hover:shadow-lg shadow-black/40 border border-white/0 hover:border-black/20 dark:hover:border-white/20 duration-300 ease-out">
+          <img
+            src={`/${props.img}`}
+            className="aspect-video object-cover rounded-lg"
+          />
+          <div className="p-3 space-y-2 h-full">
+            <p className="text-sm opacity-40">{props.date}</p>
+            <h1 className="text-xl font-bold">{props.title}</h1>
+          </div>
+          <div className="p-3 flex gap-3">
+            <a
+              href={props.link_website}
+              target="_blank"
+              className="text-center px-2 w-full bg-green-700 py-1 rounded-md text-white"
+            >
+              <FontAwesomeIcon icon={faPager} className="mr-1" />
+              Link
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
